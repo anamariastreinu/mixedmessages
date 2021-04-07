@@ -7,4 +7,5 @@ Small project designed for Codecademy's Full Stack Engineer Path.
 To run this project, install it locally using node:
 
 `$ cd ../folder`
+
 `$ node script.js`
