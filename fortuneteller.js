@@ -3,8 +3,8 @@ let randomNum = x => {
 };
 let messages = {
     element: ['earth', 'water', 'air', 'fire'],
-    onething: ['cozy parks', 'meeting strangers', 'nights out', 'birthday parties'],
-    another: ['spend time with loved ones', 'spend time alone', 'trust no one', 'release energy'],
+    fortune: ['cozy parks', 'meeting strangers', 'nights out', 'birthday parties'],
+    avoid: ['spend time with loved ones', 'spend time alone', 'trust no one', 'release energy'],
 };
 let createRandomMsg = (obj, func) => {
     let output = []
