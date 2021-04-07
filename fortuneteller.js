@@ -2,9 +2,9 @@ let randomNum = x => {
     return Math.floor(Math.random() * x)
 };
 let messages = {
-    element: ['earth', 'water', 'air', 'fire']
-    avoid: ['cozy parks', 'meeting strangers', 'nights out', 'birthday parties']
-    do: ['spend time with loved ones', 'spend time alone', 'trust no one', 'release energy']
+    element: ['earth', 'water', 'air', 'fire'],
+    onething: ['cozy parks', 'meeting strangers', 'nights out', 'birthday parties'],
+    another: ['spend time with loved ones', 'spend time alone', 'trust no one', 'release energy'],
 };
 let createRandomMsg = (obj, func) => {
     let output = []
@@ -17,6 +17,6 @@ let printMsg = (createRandomMsg, messages, randomNum) => {
     let array = createRandomMsg(messages, randomNum);
     console.log(`Your element is ${array[0]}.`);
     console.log(`This week, you should avoid ${array[1]}.`);
-    console.log(`You should ${array[3]}.`)
+    console.log(`You should ${array[2]}.`)
 };
 printMsg(createRandomMsg, messages, randomNum);
